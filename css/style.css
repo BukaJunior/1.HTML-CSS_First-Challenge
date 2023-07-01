@@ -1,1 +1,43 @@
 /* Ici vos styles CSS*/
+body{
+    background-color: #16f7f098;
+    
+}
+
+header, footer{
+    background-color: #1ae4ab;
+}
+
+section{
+    background-color: white;
+}
+
+h1, h2, h3, h4, footer{
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: #1ae4ab;
+    text-transform: uppercase;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+.definition {
+    background-color: rgba(255, 255, 193, 0.984);
+}
+
+span {
+    font-size: 80px;
+}
+
+strong {
+    background-color: yellow;
+    font-weight: bold;
+}
