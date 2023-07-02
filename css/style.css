@@ -1,6 +1,12 @@
 /* Ici vos styles CSS*/
+html{
+    font-size: 16px;
+}
+
 body{
     background-color: #e3f1ef;
+    /* Police qui sera hérité par tout les enfants */
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -18,6 +24,7 @@ h1, h2, h3, h4, footer{
 
 h1{
     color: white;
+    font-size: 3em;
 }
 
 h2{
@@ -27,14 +34,17 @@ h2{
 
 h3{
     text-transform: uppercase;
+    font-style: italic;
 }
 
 .definition {
     background-color: #ffffe0;
 }
 
-span {
-    font-size: 80px;
+/* On selectionne uniquement les span qui ont pour parent un h1.
+L'espace permet d'indiquer un PARENTS */
+h1 span {
+    font-size: 2em;
 }
 
 strong {
@@ -45,6 +55,14 @@ strong {
 footer{
     color: white;
     font-weight: bold;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+em{
+    text-decoration: overline;
 }
 
 .footer{
